@@ -13,6 +13,5 @@ function miFuncionPromesa() {
   });
 }
 
-// uso
 miFuncionPromesa()
     .then(console.log);
