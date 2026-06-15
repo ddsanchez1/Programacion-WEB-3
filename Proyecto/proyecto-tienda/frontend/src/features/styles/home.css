@@ -1,0 +1,148 @@
+.home-hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    #7ecf87
+  );
+  color: white;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.home-carousel-placeholder {
+  height: 500px;
+  background: #f4f4f4;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #777;
+}
+
+.home-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  padding: 70px 0;
+}
+
+.benefit-card {
+  text-align: center;
+
+  padding: 24px;
+
+  border-radius: 12px;
+
+  background: white;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,.08);
+}
+
+/* // */
+.home-promotions {
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  margin-bottom: 12px;
+}
+
+.section-header p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.home-promotions-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  gap: 24px;
+}
+
+.promo-card {
+  padding: 30px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.promo-card:hover {
+  transform: translateY(-4px);
+}
+
+.promo-card h3 {
+  margin-bottom: 12px;
+}
+
+.home-about {
+  padding: 80px 0;
+}
+
+.home-about-content {
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.home-about-content p {
+  margin-bottom: 20px;
+}
+
+.home-cta {
+  margin-top: 80px;
+  padding: 80px 20px;
+  text-align: center;
+  background: var(--color-primary);
+  color: white;
+}
+
+.home-cta h2 {
+  margin-bottom: 16px;
+}
+
+.home-cta p {
+  max-width: 700px;
+  margin: 0 auto 24px;
+}
+
+.benefit-card h3 {
+  margin-bottom: 12px;
+}
+
+.benefit-card p {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .home-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero h1 {
+    font-size: 2.2rem;
+  }
+}

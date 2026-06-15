@@ -1,0 +1,33 @@
+.button {
+  background-color: var(--color-secondary);
+  border: none;
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.button-onHeader {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 8px 12px;
+
+  cursor: pointer;
+  transition: var(--transition);
+  color: whitesmoke;
+  text-align: left;
+  padding-left: 5%;
+}
+.button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button-accent {
+  background-color: var(--color-accent);
+}
+.nav-links button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
